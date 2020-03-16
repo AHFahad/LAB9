@@ -72,7 +72,16 @@ session_start();
 			height: 500px;
 		
 		}
-
+		.content_left{
+			width: 40%;
+			float: left;
+			border: 1px solid red;
+		}
+		.content_right{
+			width: 59%;
+			float: right;
+			border: 1px solid red;
+		}
  		
 
  	</style>

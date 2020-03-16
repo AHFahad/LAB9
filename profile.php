@@ -28,15 +28,17 @@ session_start();
  			color: white;
 
  		}
-
+ 		.logo{
+ 			width: 39%;
+ 		}
  		.header{
- 			width: 100%;
+ 			//width: 100%;
  			//background-color: blue;
  			
  			
  		}
  		.header .left{
- 			width: 40%;
+ 			width: 39%;
  			float: left;
 
  		}
@@ -67,6 +69,25 @@ session_start();
 			height: 500px;
 		
 		}
+		.content_left{
+			width: 40%;
+			float: left;
+			border: 1px solid red;
+		}
+		.content_right{
+			width: 59%;
+			float: right;
+			border: 1px solid red;
+		}
+
+		.content_rightl{
+			width: 40%;
+			float: left;
+			
+		}
+		.content_rightr{
+			float: right;
+		}
 
  		
 
@@ -88,7 +109,7 @@ session_start();
  	
 
 	<div class="content_right">
-			<div class="content_right_l">
+			<div class="content_rightl">
 				<h3>Profile</h3>
 				<?php
 				

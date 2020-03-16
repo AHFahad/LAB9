@@ -28,6 +28,9 @@ session_start();
  			background-color: blue;
  			padding: 25px 0 ;
  			color: white;
+ 			position: absolute;
+ 			bottom: 0;
+ 			width: 100%;
 
  		}
 
@@ -68,6 +71,18 @@ session_start();
 		.body{
 			height: 500px;
 		
+		}
+		.content_left{
+			width: 40%;
+			float: left;
+			border: 1px solid red;
+			height: 500px;
+		}
+		.content_right{
+			width: 59%;
+			float: right;
+			border: 1px solid red;
+			height: 500px;
 		}
 
  		
